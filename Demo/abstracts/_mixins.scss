@@ -1,0 +1,24 @@
+@mixin comon-jumbotron{
+    text-align: center;
+    margin-bottom: 0; 
+    }
+
+@mixin nav-styes{
+    background: $nav-bgcolor;
+    font-size:$nav-font-style;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+@mixin buttons{
+    
+    border: none;
+    color: $btn-color;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+

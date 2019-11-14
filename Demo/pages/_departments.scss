@@ -1,0 +1,44 @@
+@mixin textposition{text-align: center;}
+.card{
+    &-btn{
+
+        align-items: center;
+        color: $btn-color;
+    background-color: $btn-background-color;
+  border-color:  $btn-border-color;
+  border-radius: 5px;
+    }
+    image{
+        width: 100%;
+    }
+    h1{
+        @include textposition;
+        font-size: 18px;
+        padding: 10px;;
+    }
+    p{
+        font-size: 16px;
+        @include textposition;
+    }
+    .fav-icons{
+        margin: 24px 0;
+    }
+}
+
+  
+.department-box{
+    .btn-ece{
+        
+        margin-bottom: 20px;
+    }
+    .department-img{
+        img{width: 100%;}
+        .Seats{
+            p{
+                font-size: 16px;
+                margin-top: 16px;
+            }
+        }
+    }
+}
+    

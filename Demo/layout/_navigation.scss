@@ -1,0 +1,49 @@
+.navbar{
+    &.navbar-expand-sm{
+    background-color:$nav-bgcolor;
+    padding: 0;
+}
+.input-group{
+    width: auto;
+    float: right;
+}
+}
+
+ul{
+    &.navbar-nav{
+    
+        .nav-item{
+            
+            a{ 
+                padding: 20px;
+                color: $nav-text;
+            }
+            &:hover{
+                background: rgb(125, 155, 78);
+            }
+        }
+    }
+}
+
+.dropdown-menu{
+    margin:0;
+    padding: 0;
+    background: $nav-bgcolor;
+    &.show{
+        .dropown-item{
+            padding: 0!important;
+            
+        }
+        :hover{
+            background-color: $navitem-tab-color;
+        }
+    }
+} 
+
+.input-group {
+    .form-control{
+    :focus{
+        box-shadow: none!important;
+    }
+}}
+

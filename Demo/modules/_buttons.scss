@@ -1,0 +1,34 @@
+
+.input-group-append{
+     .btn-outline-secondary{
+        background:black;
+    }
+    
+}
+.bgroupButtons{display: inline-block;}
+
+.btn-ece{
+    @include buttons;
+    background:#0000ff;
+    &:hover{
+        background:$button1; 
+    }
+}
+.btn-cse{
+    @include buttons;
+    background-color: #aa00ff;
+    &:hover{
+        background:$button2; 
+    }
+}
+.btn-eee{
+    @include buttons;
+    background-color: #4dd2ff;
+    &:hover{
+        background:$button3; 
+    }
+}
+
+
+
+       

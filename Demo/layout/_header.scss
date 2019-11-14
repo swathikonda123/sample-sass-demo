@@ -1,0 +1,10 @@
+.jumbotron{
+    @include comon-jumbotron;
+    background: $header-bg-color;
+    header{
+        color:$header-text;
+        font-weight: $header-font-weight;
+        font-size: $header-font;
+
+    }
+}

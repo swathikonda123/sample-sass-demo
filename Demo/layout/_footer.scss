@@ -1,0 +1,14 @@
+
+.footer-links{
+  background: $footer-bg-color;
+  p{
+    color: $color;
+    text-align: center;
+    &:first-child{
+      margin-bottom: 0;
+    }
+    a{
+      color: $color;
+    }
+  }
+}
